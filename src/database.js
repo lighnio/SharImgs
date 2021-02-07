@@ -6,4 +6,4 @@ mongoose.connect(database.URI, {
     useNewUrlParser: true
 })
     .then(db => console.log('DB is connected'))
-    .catch(err => console.error(err));
+    .catch(err => console.error(err, '\n\n\nError in BD connection.'));
